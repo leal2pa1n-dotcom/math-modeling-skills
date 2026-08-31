@@ -1,0 +1,7 @@
+interface:
+  display_name: "数模竞赛 skill"
+  short_description: "数学建模竞赛论文一站式产出与自查"
+  default_prompt: "使用本 skill 解决数学建模竞赛题：读题后做 6 维问题分流（评价/预测/优化/分类/生存/机理/几何运动学），先做数据预处理（重复检测主体级聚合、删失处理、VIF 共线性诊断、异常值、指标方向），再分题型建模求解，按规范结构写论文，交稿前做 AI 痕迹自查（假设一致性/文献真实性/数据来源），最后 Markdown→LaTeX→PDF 工程化产出，并核对提交合规（正文≤30页、PDF非图片型可查重、≤20MB、全文匿名、AI工具规范标注）。AI 是工具不是队友，每步你定方向、AI 执行、你审核。"
+
+policy:
+  allow_implicit_invocation: true
