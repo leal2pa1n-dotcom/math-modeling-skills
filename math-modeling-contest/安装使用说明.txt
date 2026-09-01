@@ -20,7 +20,7 @@
 - README.md —— 简介
 - 安装使用说明.txt —— 本文件
 - agents/openai.yaml —— Codex 接口定义
-- references/ —— 10 份方法论参考
+- references/ —— 12 份方法论参考
 
 【安装方法】
 本 skill 只依赖标准的 SKILL.md（YAML 头 name + description）+ references/，
@@ -57,7 +57,7 @@ math-modeling-contest/
 ├── README.md                        简介
 ├── 安装使用说明.txt                   本文件
 ├── agents/openai.yaml               Codex 接口定义
-└── references/                      10 份方法论参考
+└── references/                      12 份方法论参考
     ├── 题型与方法论.md               评价/预测/优化/分类/生存/机理/几何
     ├── 模型选取指南.md               同类模型优缺点对比 + 情景选取
     ├── 现代工作流与工具链.md          9-phase 工作流 + 分层工具栈
@@ -67,7 +67,9 @@ math-modeling-contest/
     ├── 零基础速成全流程.md            满分摘要 / 72h 分工 / 违规红线 / 排版
     ├── 备赛冲刺与时间管理.md          20 天 / 10 天备赛节奏
     ├── 竞赛规则与提交规范.md          官方组队/纪律/AI新规/提交格式
-    └── 案例库.md                     已解析获奖论文案例
+    ├── 案例库.md                     已解析获奖论文案例
+    ├── 顶刊图表美化提示词.md          Nature/Science 级 12 类图表规范 + 智能补图
+    └── 国奖论文优化提示词.md          九大模块双模式全链路 + 硬指标清单
 
 【来源与致谢】
 方法论蒸馏自多篇真实获奖论文复盘（2025/2026 国赛 C 题、C038 农作物、2024 A 题板凳龙等）

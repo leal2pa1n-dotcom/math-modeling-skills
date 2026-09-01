@@ -55,7 +55,7 @@ math-modeling-skills/
 │   ├── README.md
 │   ├── 安装使用说明.txt
 │   ├── agents/openai.yaml
-│   └── references/                 # 10 份方法论参考
+│   └── references/                 # 12 份方法论参考
 └── math-modeling-beginner-coach/   # 零基础教练
     ├── SKILL.md
     └── references/                 # 3 份速查参考

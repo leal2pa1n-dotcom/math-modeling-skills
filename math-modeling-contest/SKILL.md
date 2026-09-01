@@ -1,6 +1,6 @@
 ---
 name: math-modeling-contest
-description: 数学建模竞赛论文一站式产出与自查 skill。Use when the user wants to solve a 数学建模竞赛 (CUMCM 国赛 / 五一赛 / 美赛 MCM-ICM) problem end-to-end: 读题 → 6 维问题分流 → 建模求解 → 论文写作 → AI 痕迹自查 → 提交合规核对 → LaTeX/PDF 产出。整合数据预处理陷阱（重复检测/删失/共线性/异常值）、分题型建模方法论（评价/预测/优化/分类/生存/机理/几何运动学）、AI 辅助的正确姿势（Prompt 工程 + 幻觉防范 + 代码审查）、可复用的论文结构规范与 AI 自查清单、官方竞赛规则与提交规范（组队/纪律/AI新规/格式/匿名），以及 Agent 工具链（Codex / DeepSeek Harness / Skills）、模型选取指南（同类模型优缺点对比）、零基础速成全流程（满分摘要/72小时分工/违规红线/排版）。
+description: 数学建模竞赛论文一站式产出与自查 skill。Use when the user wants to solve a 数学建模竞赛 (CUMCM 国赛 / 五一赛 / 美赛 MCM-ICM) problem end-to-end: 读题 → 6 维问题分流 → 建模求解 → 论文写作 → AI 痕迹自查 → 提交合规核对 → LaTeX/PDF 产出。整合数据预处理陷阱（重复检测/删失/共线性/异常值）、分题型建模方法论（评价/预测/优化/分类/生存/机理/几何运动学）、AI 辅助的正确姿势（Prompt 工程 + 幻觉防范 + 代码审查）、可复用的论文结构规范与 AI 自查清单、官方竞赛规则与提交规范（组队/纪律/AI新规/格式/匿名），以及 Agent 工具链（Codex / DeepSeek Harness / Skills）、模型选取指南（同类模型优缺点对比）、零基础速成全流程（满分摘要/72小时分工/违规红线/排版）、顶刊图表美化提示词（Nature/Science 级 12 类图表规范 + matplotlib 模板 + 智能补图）、国奖论文优化提示词（九大模块双模式全链路 + 硬指标清单 + 三格式交付）。
 ---
 
 # 数模竞赛 skill
@@ -66,7 +66,7 @@ description: 数学建模竞赛论文一站式产出与自查 skill。Use when t
 
 ### 第 3 步：论文写作（结构规范）
 
-参照 `references/论文结构规范.md`。通用结构：
+参照 `references/论文结构规范.md`（结构）、`references/国奖论文优化提示词.md`（九大模块 + 硬指标清单，冲国奖）、`references/顶刊图表美化提示词.md`（图表视觉规范）。通用结构：
 
 ```
 摘要 + 关键词 → 一、问题重述 → 二、问题分析 → 三、模型假设
@@ -121,3 +121,5 @@ description: 数学建模竞赛论文一站式产出与自查 skill。Use when t
 - `references/备赛冲刺与时间管理.md`：20 天 / 最低 10 天备赛节奏、三次翻译、三人分工、72 小时
 - `references/竞赛规则与提交规范.md`：官方组队/纪律/AI新规/提交格式硬性要求（交稿前核对）
 - `references/案例库.md`：已解析的获奖论文（25C NIPT、26C 光伏、C038 农作物种植、2024 A 题板凳龙等）
+- `references/顶刊图表美化提示词.md`：**Nature/Science 级图表视觉规范**——10 条黄金法则 + 12 套配色（Nature/Lancet/Science/Cell + viridis/RdBu_r/分类色板）+ 12 类图表分项美化（柱/折/散/热力/箱/饼/雷达/3D/地图/流程图/网络/统计图）+ 显著性标注 + 300 DPI 导出 + 智能补图 + matplotlib 终极模板
+- `references/国奖论文优化提示词.md`：**国奖级论文全链路优化**——双模式（A 诊断升级 / B 从零七步）+ 九大模块（数据预处理/模型建立五创新/求解/检验/写作/图表/排版/代码/顶刊绘图）+ 摘要 700–850 字 + 公式 ≥30 + 三线表 + 硬指标核查清单（🔴致命硬伤/🟡严重扣分/🟢国奖冲刺）
